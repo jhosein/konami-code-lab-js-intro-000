@@ -15,6 +15,7 @@ const codes = [
 function init() {
   // your code here
   document.body.addEventListener('keydown', keydownHandler(event));
+  console.log("listener attached");
 }
 
 function keydownHandler(e) {
