@@ -14,10 +14,7 @@ const codes = [
 function init() {
   // your code here
   let index = 0;
-  document.body.addEventListener('keydown', keydownHandler(event));
-
-
-  function keydownHandler(e) {
+  document.body.addEventListener('keydown', function(event) {
     let key = e.key;
     console.log(key);
 
@@ -32,6 +29,9 @@ function init() {
     else {
       index = 0;
     }
+    
   }
 
+
+)
 }
