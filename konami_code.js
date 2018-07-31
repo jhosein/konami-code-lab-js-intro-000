@@ -15,7 +15,7 @@ const codes = [
 function init() {
   // your code here
   var index = 0;
-  console.log("listener attached");
+
 }
 
 function keydownHandler(e) {
