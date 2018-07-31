@@ -12,9 +12,10 @@ const codes = [
 ];
 
   document.body.addEventListener('keydown', keydownHandler(event));
+  var index = 0;
 function init() {
   // your code here
-  var index = 0;
+  
 
 }
 
